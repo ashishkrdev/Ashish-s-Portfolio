@@ -7,6 +7,8 @@ import PrimaryButton from '../components/PrimaryButton.jsx'
 import { contact, stats } from '../data/portfolioData.js'
 
 function Hero() {
+  const resumeUrl = `${import.meta.env.BASE_URL}Ashish-Kumar-Resume.pdf`
+
   return (
     <section className="hero section-band" id="home">
       <Container className="hero-grid">
@@ -32,7 +34,7 @@ function Hero() {
               Hire Me
             </PrimaryButton>
             <PrimaryButton
-              href="/Ashish-Kumar-Resume.pdf"
+              href={resumeUrl}
               variant="ghost"
               icon={FiDownload}
               download
