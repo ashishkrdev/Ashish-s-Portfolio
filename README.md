@@ -12,7 +12,7 @@ The site is configured for GitHub Pages deployment through GitHub Actions.
 - Recruiter-focused hero, about, skills, projects, services, and contact sections
 - Real project screenshots for NoteMindAI, Movie Explorer, and Portfolio
 - Resume download support
-- Social links for GitHub, LinkedIn, and CodeChef
+- Social links for GitHub, LinkedIn, and LeetCode
 - GitHub Pages deployment workflow
 
 ## Tech Stack
@@ -41,4 +41,4 @@ npm run build
 - Email: erashishkr82@gmail.com
 - GitHub: https://github.com/ashishkrdev
 - LinkedIn: https://linkedin.com/in/ashishkrdev
-- CodeChef: https://www.codechef.com/users/dev_ashish04
+- LeetCode: https://leetcode.com/u/ashishkrdev

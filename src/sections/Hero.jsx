@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { FaLinkedin } from 'react-icons/fa'
 import { FiArrowUpRight, FiDownload } from 'react-icons/fi'
-import { SiCodechef, SiGithub } from 'react-icons/si'
+import { SiGithub, SiLeetcode } from 'react-icons/si'
 import Container from '../components/Container.jsx'
 import PrimaryButton from '../components/PrimaryButton.jsx'
 import { contact, stats } from '../data/portfolioData.js'
@@ -56,12 +56,12 @@ function Hero() {
               <FaLinkedin aria-hidden="true" />
             </a>
             <a
-              href={contact.codechef}
-              aria-label="CodeChef profile"
+              href={contact.leetcode}
+              aria-label="LeetCode profile"
               target="_blank"
               rel="noreferrer"
             >
-              <SiCodechef aria-hidden="true" />
+              <SiLeetcode aria-hidden="true" />
             </a>
           </div>
         </motion.div>

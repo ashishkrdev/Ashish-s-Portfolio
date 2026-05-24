@@ -24,8 +24,8 @@ export const contact = {
   githubLabel: 'github.com/ashishkrdev',
   linkedin: 'https://linkedin.com/in/ashishkrdev',
   linkedinLabel: 'linkedin.com/in/ashishkrdev',
-  codechef: 'https://www.codechef.com/users/dev_ashish04',
-  codechefLabel: 'codechef.com/users/dev_ashish04',
+  leetcode: 'https://leetcode.com/u/ashishkrdev',
+  leetcodeLabel: 'leetcode.com/u/ashishkrdev',
 }
 
 export const navLinks = [

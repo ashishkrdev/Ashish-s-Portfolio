@@ -1,6 +1,6 @@
 import { FiMail, FiSend } from 'react-icons/fi'
 import { FaLinkedin } from 'react-icons/fa'
-import { SiCodechef, SiGithub } from 'react-icons/si'
+import { SiGithub, SiLeetcode } from 'react-icons/si'
 import Container from '../components/Container.jsx'
 import PrimaryButton from '../components/PrimaryButton.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
@@ -61,10 +61,10 @@ function Contact() {
               </a>
             </div>
             <div>
-              <SiCodechef aria-hidden="true" />
-              <span>CodeChef</span>
-              <a href={contact.codechef} target="_blank" rel="noreferrer">
-                {contact.codechefLabel}
+              <SiLeetcode aria-hidden="true" />
+              <span>LeetCode</span>
+              <a href={contact.leetcode} target="_blank" rel="noreferrer">
+                {contact.leetcodeLabel}
               </a>
             </div>
           </aside>
