@@ -94,7 +94,7 @@ export const projects = [
     image: portfolioImage,
     links: {
       live: '#contact',
-      github: contact.github,
+      github: 'https://github.com/ashishkrdev/Ashish-s-Portfolio',
     },
   },
 ]
