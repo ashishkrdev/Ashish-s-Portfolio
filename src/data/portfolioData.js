@@ -67,8 +67,8 @@ export const projects = [
     icon: FiZap,
     image: noteMindImage,
     links: {
-      live: '#contact',
-      github: contact.github,
+      live: 'https://ashishkrdev.github.io/NoteMindAI',
+      github: 'https://github.com/ashishkrdev/NoteMindAI',
     },
   },
   {
